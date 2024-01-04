@@ -4,7 +4,7 @@
 
   }
 
-  .heroBanner {
+  .jumbotron {
     background-image: url("../image/6.card.png");
     background-size: cover;
     background-position: center;
@@ -20,4 +20,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  .container {
+    align-items: center;
+    justify-content: center;
   }
