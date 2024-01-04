@@ -1,0 +1,25 @@
+  /* hero banner */
+  
+  .heroSec {
+    height: 20em;
+    width: 100% !important ;
+
+  }
+
+  .heroBanner {
+    background-image:linear-gradient(rgba(139, 130, 130, 0.5), rgba(187, 80, 80, 0.5)), url("../image/6.card.png");
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    height: 100%;
+
+  }
+
+  .heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
