@@ -1,13 +1,24 @@
+
+  .jumbotron {
+    background-image: url("../image/6.card.png");
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    height: 100%;
+
+  }
   .heroSec {
     height: 20em;
     width: 100% !important ;
 
   }
 
-  .jumbotron {
-    background-image: url("../image/6.card.png");
+  .heroBanner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     width: 100% !important;
     height: 100%;
 
@@ -20,4 +31,33 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+ 
+  .portrait-section {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+  }
+  
+  .portrait {
+    width: 13em ;
+    height: 18em;
+    margin-left: auto;
+    margin-top: auto;
+    width: auto;
+  }
+  .container1 a.nav-link:hover {
+    color: #808080;
+  }
+
+  .containerBlock {
+      width: 100%;
+      height: 100%;
+      justify-content: space-evenly;
+  }
+
+  .icon-link-hover {
+    background-image: url(../image/6.card.png);
+    background-color: crimson;
   }
